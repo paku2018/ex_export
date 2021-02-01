@@ -1,0 +1,94 @@
+.btn-custom{
+    background-color: #1572e8;
+    border-color: #1572e8;
+    color: white;
+}
+.btn-custom:hover{
+    background-color: white;
+    color: #1572e8;
+}
+.btn-custom-error{
+    background-color: #ff2828;
+    border-color: #ff2828;
+    color: white;
+}
+.btn-custom-error:hover{
+    background-color: white;
+    color: #ff2828;
+}
+.btn-success:hover{
+    background-color: white!important;
+    color: #31ce36;
+}
+.btn-success:focus{
+    background-color: #31ce36!important;
+    color: white;
+}
+body{
+    .logo-header{
+        img{
+            width: 130px;
+            margin-top: 10px;
+        }
+    }
+    .container{
+        .card{
+            .card-header{
+                min-height: 80px;
+            }
+        }
+    }
+}
+
+.order-page{
+    .status{
+        .status-mark{
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: #1572e8;
+        }
+        .status-text{
+            color: #1572e8 !important;
+        }
+    }
+    .select2-container{
+        width: auto !important;
+    }
+    .btn{
+        min-width: 100px;
+    }
+    @media screen and (max-width: 768px){
+        .form-show-validation{
+            .text-right{
+                text-align: left !important;
+            }
+        }
+    }
+    .transporter-order{
+        input{
+            color: black;
+        }
+    }
+}
+
+.orderlist-page{
+    table{
+        tbody{
+            tr{
+                td{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.profile-page{
+    .custom-error{
+        background-color: #fccbcb;
+        border-radius: 5px;
+        color: red;
+        padding: 0.5rem;
+    }
+}
